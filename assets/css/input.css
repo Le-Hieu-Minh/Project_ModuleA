@@ -25,7 +25,7 @@
   --neutral-01: #FEFEFE;
 
   --color-heading: :#121221;
-  --color-text: var(--color-text);
+  --color-text: #3E3E59;
 
 
   --font-pop: "Poppins", sans-serif;
@@ -37,6 +37,13 @@
 
 
 @layer base {
+
+  input,
+  textarea,
+  button {
+    @apply outline-none;
+  }
+
   .hero {
     @apply font-pop text-[6rem] font-medium leading-[6rem] tracking-[-0.12rem] text-[var(--color-heading)];
   }
@@ -68,114 +75,118 @@
 
 @layer components {
   .btn-xl {
-    @apply font-inter text-[1.625rem] font-medium leading-[2.375rem] text-[var(--color-heading)];
+    @apply font-pop text-[1.625rem] font-medium leading-[2.375rem] text-[var(--color-heading)];
   }
 
   .btn-l {
-    @apply font-inter text-[1.375rem] font-medium leading-[2.125rem] text-[var(--color-heading)];
+    @apply font-pop text-[1.375rem] font-medium leading-[2.125rem] text-[var(--color-heading)];
   }
 
   .btn-m {
-    @apply font-inter text-[1.125rem] font-medium leading-[2rem] tracking-[-0.025rem] text-[var(--color-heading)];
+    @apply font-pop text-[1.125rem] font-medium leading-[2rem] tracking-[-0.025rem] text-[var(--color-heading)];
 
   }
 
   .btn-s {
-    @apply font-inter text-[1rem] font-medium leading-[1.75rem] tracking-[-0.025rem] text-[var(--color-heading)];
+    @apply font-pop text-[1rem] font-medium leading-[1.75rem] tracking-[-0.025rem] text-[var(--color-heading)];
   }
 
   .btn-xs {
-    @apply font-inter text-[0.875rem] font-medium leading-[1.5rem] text-[var(--color-heading)];
+    @apply font-pop text-[0.875rem] font-medium leading-[1.5rem] text-[var(--color-heading)];
   }
 
   /* BOLD 700 */
   .text-26-bold {
-    @apply font-inter text-[1.625rem] font-bold leading-[2.5rem] text-[var(--color-text)];
+    @apply font-pop text-[1.625rem] font-bold leading-[2.5rem] text-[var(--color-text)];
   }
 
   .text-22-bold {
-    @apply font-inter text-[1.375rem] font-bold leading-[2.125rem] text-[var(--color-text)];
+    @apply font-pop text-[1.375rem] font-bold leading-[2.125rem] text-[var(--color-text)];
   }
 
   .body-1-bold {
-    @apply font-inter text-[1.25rem] font-bold leading-[2rem] text-[var(--color-text)];
+    @apply font-pop text-[1.25rem] font-bold leading-[2rem] text-[var(--color-text)];
   }
 
   .text-18-bold {
-    @apply font-inter text-[1.125rem] font-bold leading-[1.875rem] text-[var(--color-text)];
+    @apply font-pop text-[1.125rem] font-bold leading-[1.875rem] text-[var(--color-text)];
   }
 
   .body-1-bold {
-    @apply font-inter text-[1rem] font-bold leading-[1.625rem] text-[var(--color-text)];
+    @apply font-pop text-[1rem] font-bold leading-[1.625rem] text-[var(--color-text)];
   }
 
   .body-2-bold {
-    @apply font-inter text-[1rem] font-bold leading-[1.625rem] text-[var(--color-text)];
+    @apply font-pop text-[1rem] font-bold leading-[1.625rem] text-[var(--color-text)];
   }
 
   .caption-1-bold {
-    @apply font-inter text-[0.875rem] font-bold leading-[1.375rem] text-[var(--color-text)];
+    @apply font-pop text-[0.875rem] font-bold leading-[1.375rem] text-[var(--color-text)];
   }
 
   .caption-2-bold {
-    @apply font-inter text-[0.75rem] font-bold leading-[1.25rem] text-[var(--color-text)];
+    @apply font-pop text-[0.75rem] font-bold leading-[1.25rem] text-[var(--color-text)];
   }
 
   /* --- REGULAR (400) --- */
   .text-26-reg {
-    @apply font-inter text-[1.625rem] font-normal leading-[2.5rem] text-[var(--color-text)];
+    @apply font-pop text-[1.625rem] font-normal leading-[2.5rem] text-[var(--color-text)];
   }
 
   .text-22-reg {
-    @apply font-inter text-[1.375rem] font-normal leading-[2.125rem] text-[var(--color-text)];
+    @apply font-pop text-[1.375rem] font-normal leading-[2.125rem] text-[var(--color-text)];
   }
 
   .body-1-reg {
-    @apply font-inter text-[1.25rem] font-normal leading-[2rem] text-[var(--color-text)];
+    @apply font-pop text-[1.25rem] font-normal leading-[2rem] text-[var(--color-text)];
   }
 
   .text-18-reg {
-    @apply font-inter text-[1.125rem] font-normal leading-[1.875rem] text-[var(--color-text)];
+    @apply font-pop text-[1.125rem] font-normal leading-[1.875rem] text-[var(--color-text)];
   }
 
   .body-2-reg {
-    @apply font-inter text-[1rem] font-normal leading-[1.625rem] text-[var(--color-text)];
+    @apply font-pop text-[1rem] font-normal leading-[1.625rem] text-[var(--color-text)];
   }
 
   .caption-1-reg {
-    @apply font-inter text-[0.875rem] font-normal leading-[1.375rem] text-[var(--color-text)];
+    @apply font-pop text-[0.875rem] font-normal leading-[1.375rem] text-[var(--color-text)];
   }
 
   .caption-2-reg {
-    @apply font-inter text-[0.75rem] font-normal leading-[1.25rem] text-[var(--color-text)];
+    @apply font-pop text-[0.75rem] font-normal leading-[1.25rem] text-[var(--color-text)];
   }
 
   /* --- SEMI BOLD (600) --- */
   .text-26-semibold {
-    @apply font-inter text-[1.625rem] font-semibold leading-[2.5rem] text-[var(--color-text)];
+    @apply font-pop text-[1.625rem] font-semibold leading-[2.5rem] text-[var(--color-text)];
   }
 
   .text-22-semibold {
-    @apply font-inter text-[1.375rem] font-semibold leading-[2.125rem] text-[var(--color-text)];
+    @apply font-pop text-[1.375rem] font-semibold leading-[2.125rem] text-[var(--color-text)];
   }
 
   .body-1-semibold {
-    @apply font-inter text-[1.25rem] font-semibold leading-[2rem] text-[var(--color-text)];
+    @apply font-pop text-[1.25rem] font-semibold leading-[2rem] text-[var(--color-text)];
   }
 
   .text-18-semibold {
-    @apply font-inter text-[1.125rem] font-semibold leading-[1.875rem] text-[var(--color-text)];
+    @apply font-pop text-[1.125rem] font-semibold leading-[1.875rem] text-[var(--color-text)];
   }
 
   .body-2-semibold {
-    @apply font-inter text-[1rem] font-semibold leading-[1.625rem] text-[var(--color-text)];
+    @apply font-pop text-[1rem] font-semibold leading-[1.625rem] text-[var(--color-text)];
   }
 
   .caption-1-semibold {
-    @apply font-inter text-[0.875rem] font-semibold leading-[1.375rem] text-[var(--color-text)];
+    @apply font-pop text-[0.875rem] font-semibold leading-[1.375rem] text-[var(--color-text)];
   }
 
   .caption-2-semibold {
-    @apply font-inter text-[0.75rem] font-semibold leading-[1.25rem] text-[var(--color-text)];
+    @apply font-pop text-[0.75rem] font-semibold leading-[1.25rem] text-[var(--color-text)];
+  }
+
+  .check-box {
+    @apply fill-[#FCFCFD] stroke-[#6C7275] text-[var(--neutral-07)] rounded focus:ring-transparent
   }
 }

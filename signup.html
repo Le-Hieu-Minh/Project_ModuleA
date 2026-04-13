@@ -15,46 +15,51 @@
 <body>
   <main class="min-h-screen flex flex-col md:flex-row">
 
-    <!-- LEFT (IMAGE) -->
-    <section class="w-full md:w-1/2 bg-gray-100 flex flex-col items-center justify-center p-6">
 
-      <!-- Logo -->
-      <div class=" mb-4 md:top-6 md:left-6">
+    <section class="w-full md:w-1/2 bg-[var(--neutral-02)] flex flex-col items-center justify-center ">
+
+      <div class="mt-8 mb-4">
         <img src="../assets/img/img_signup/3legant.png" alt="logo">
       </div>
 
-      <!-- Image -->
       <img src="../assets/img/img_signup/Pasteimage.png" alt="chair" class="w-full max-w-xs md:max-w-md object-contain">
     </section>
 
-    <!-- RIGHT (FORM) -->
+
     <section class="w-full md:w-1/2 flex items-center justify-center">
       <article class="w-full max-w-md px-6 py-8">
 
-        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center md:text-left">
+        <h2 class="heading-4 md:text-3xl  mb-4 text-center text-left mb-1.5">
           Sign In
         </h2>
-
-        <p class="mb-6 text-gray-500 text-sm md:text-base text-center md:text-left">
+        <p class="body-2-reg  text-left mb-8">
           Don’t have an account yet?
-          <a href="#" class="var(--secondary-green) font-semibold">Sign Up</a>
+          <a href="#" class="text-[var(--secondary-green)] body-2-semibold">Sign Up</a>
         </p>
 
-        <form class="space-y-5">
+        <form class="space-y-5 ">
 
-          <input type="text" placeholder="Your username or email address" class="w-full border-b py-2 outline-none">
+          <input type="text" placeholder="Your username or email address"
+            class="flex flex-col items-start p-0 w-full h-10 gap-2.5 border-t-0 border-l-0 border-r-0 outline-none focus:ring-1 focus:ring-transparent border-b-[var(--neutral-03)] body-2-reg  mb-8">
 
-          <input type="password" placeholder="Password" class="w-full border-b py-2 outline-none">
-
-          <div class="flex justify-between items-center text-sm">
-            <label class="flex items-center gap-2">
-              <input type="checkbox">
-              Remember me
-            </label>
-            <a href="#">Forgot password?</a>
+          <div class="flex mb-8 items-center relative">
+            <input type="password" placeholder="Password"
+              class="flex flex-col items-start p-0 w-full h-10 gap-2.5 border-t-0 border-l-0 border-r-0 outline-none focus:ring-1 focus:ring-transparent border-b-[var(--neutral-03)] body-2-reg">
+            <div class="absolute right-0">
+              <img src="../assets/img/img_signup/eye.png " alt="chair">
+            </div>
           </div>
 
-          <button class="w-full bg-black text-white py-3 rounded">
+          <div class="flex justify-between items-center text-sm mb-8">
+            <label class="flex items-center gap-2 body-2-reg">
+              <input type="checkbox" class=" check-box ">
+              Remember me
+            </label>
+            <a href="#" class="body-2-semibold">Forgot password?</a>
+          </div>
+
+          <button
+            class="flex w-full py-2.5 px-10 justify-center items-center gap-2 rounded-lg bg-[var(--neutral-07)] btn-s text-[#ffffff] ">
             Sign In
           </button>
 
@@ -66,8 +71,5 @@
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
-
-
-
 
 </html>
