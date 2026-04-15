@@ -1,0 +1,27 @@
+.background-img {
+  background-image: url(../img/img_home/Pasteimage-9.png);
+  background-repeat: no-repeat;
+  background-position: -16px;
+  background-size: contain;
+}
+
+.background-img2 {
+  background-image: url(../img/img_home/Pasteimage-8.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.background-img3 {
+  background-image: url(../img/img_home/Pasteimage-7.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.background-img4 {
+  background-image: url(../img/img_home/Pasteimage-6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
