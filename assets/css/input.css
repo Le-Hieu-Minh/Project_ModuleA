@@ -198,16 +198,16 @@
     @apply text-center font-pop text-base font-bold leading-none uppercase flex py-1 px-3.5 justify-center items-center gap-2 rounded;
   }
 
-  .swiper-button-next::after,
-  .swiper-button-prev::after {
-    content: none !important;
+  .swiper-button-next svg,
+  .swiper-button-prev svg {
+    width: 26px;
+    height: 26px;
+    fill: #0f172a;
+  }
 
+  .input {
+    @apply border-[var(--neutral-07)] rounded px-3 py-2 text-sm focus:outline-none w-full focus:ring-1 focus:ring-[var(--neutral-07)];
   }
 
 
-  .swiper-button-next,
-  .swiper-button-prev,
-  .swiper-pagination {
-    color: transparent !important;
-  }
 }
