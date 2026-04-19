@@ -206,8 +206,14 @@
   }
 
   .input {
-    @apply border-[var(--neutral-07)] rounded px-3 py-2 text-sm focus:outline-none w-full focus:ring-1 focus:ring-[var(--neutral-07)];
+    @apply border-[var(--neutral-07)] rounded px-3 py-2 font-pop text-[1rem] font-normal leading-[1.625rem] text-[var(--neutral-04)] focus:outline-none w-full focus:ring-1 focus:ring-[var(--neutral-07)];
   }
+
+  .label {
+    @apply block text-[#6C7275] font-pop text-xs font-bold leading-none mb-3 uppercase;
+  }
+
+
 
 
 }
